@@ -89,3 +89,13 @@ document.getElementById('arithmeticOpp3').innerHTML = arithmeticOperation.operat
 document.getElementById('arithmeticOpp4').innerHTML = arithmeticOperation.operation1 && arithmeticOperation.operation1;
 document.getElementById('arithmeticOpp5').innerHTML = arithmeticOperation.operation2 && arithmeticOperation.operation2;
 
+
+
+// for( var i = 0; i < 10; i++);
+
+// for( let j =0; j<10; j++ );
+
+// console.log(i);
+// console.log(j);
+
+
