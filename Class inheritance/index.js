@@ -1,7 +1,7 @@
 
 
 class school {
-    constructor(name ,id, school, classes) {
+    constructor(name ,id, school) {
         this.id = id;
         this.schoolName = school;
         this.studentName = name;
@@ -18,6 +18,11 @@ class school {
     }
    }
 
+   info = new school("CCT");
+
+   info.setInformation = "Crimson College Of Technology";
+
+   document.getElementById('sch').innerHTML = info.getInformation;
 
 class student extends school {
     constructor(id, name, address, contact, classes) {
@@ -34,9 +39,7 @@ class student extends school {
     }
 }
 
-info = new school("CCT");
 
-info.setInformation = "Crimson College Of Technology";
 
 
 student1 = new student("01", "Ramesh Giri", "Pharsatilar", "9839833434", "Bachelor(7th)")
@@ -51,5 +54,8 @@ student4 = new student("04" ,"Santosh Paudel", "Butwal", "983983343", "Bachelor(
 
 
 
-document.getElementById('sch').innerHTML = info.getInformation;
+
 document.getElementById('stu').innerHTML = student1.studentInfo() + student2.studentInfo() + student3.studentInfo() + student4.studentInfo();
+
+
+
